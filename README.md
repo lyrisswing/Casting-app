@@ -1,6 +1,6 @@
-# A casting app for movie directors
+# Casting app for movie directors
 
-A Tinder-like swiping app. 
+A Tinder-like swiping app.
 
 Swipe or click buttons to choose actors. Feedback is provided after every swipe/click, and a list of liked/disliked actors are available at the end.
 
