@@ -1,11 +1,11 @@
-import ActorsTypes from './actors.types';
+import ActorsActionTypes from './actors.types';
 
 export const updateActorsById = (actor) => ({
-    type: ActorsTypes.UPDATE_ACTOR_BY_ID,
+    type: ActorsActionTypes.UPDATE_ACTOR_BY_ID,
     payload: actor
 })
 
 export const updateActorsByName = (actor) => ({
-    type: ActorsTypes.UPDATE_ACTOR_BY_NAME,
+    type: ActorsActionTypes.UPDATE_ACTOR_BY_NAME,
     payload: actor
 })

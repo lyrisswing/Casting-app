@@ -1,5 +1,5 @@
-const FeedbackTypes = {
+const FeedbackActionTypes = {
     UPDATE_FEEDBACK: "UPDATE_FEEDBACK"
 }
 
-export default FeedbackTypes;
+export default FeedbackActionTypes;

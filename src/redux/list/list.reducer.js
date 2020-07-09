@@ -1,4 +1,4 @@
-import ListTypes from './list.types';
+import ListActionTypes from './list.types';
 import { addToList } from './list.utils'
 
 const INITIAL_STATE = {
@@ -8,12 +8,12 @@ const INITIAL_STATE = {
 
 const listReducer = (state = INITIAL_STATE, action) => {
     switch (action.type) {
-        case ListTypes.UPDATE_APPROVED_LIST:
+        case ListActionTypes.UPDATE_APPROVED_LIST:
             return {
                 ...state,
                 approved: addToList(state.approved, action.payload)
             };
-        case ListTypes.UPDATE_REJECTED_LIST:
+        case ListActionTypes.UPDATE_REJECTED_LIST:
             return {
                 ...state,
                 rejected: addToList(state.rejected, action.payload)

@@ -1,4 +1,4 @@
-import FeedbackTypes from './feedback.types';
+import FeedbackActionTypes from './feedback.types';
 
 const INITIAL_STATE = {
     direction: "",
@@ -7,7 +7,7 @@ const INITIAL_STATE = {
 
 const feedbackReducer = (state = INITIAL_STATE, action) => {
     switch (action.type) {
-        case FeedbackTypes.UPDATE_FEEDBACK:
+        case FeedbackActionTypes.UPDATE_FEEDBACK:
             return {
                 direction: action.payload.direction,
                 person: action.payload.person

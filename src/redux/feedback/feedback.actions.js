@@ -1,6 +1,6 @@
-import FeedbackTypes from './feedback.types';
+import FeedbackActionTypes from './feedback.types';
 
 export const updateFeedback = (direction, person) => ({
-    type: FeedbackTypes.UPDATE_FEEDBACK,
+    type: FeedbackActionTypes.UPDATE_FEEDBACK,
     payload: { direction, person }
 })

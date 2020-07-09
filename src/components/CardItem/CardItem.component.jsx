@@ -26,6 +26,7 @@ const CardItem = ({ actor, swiped, outOfFrame, direction, person }) => {
 
             {person && direction === "right" && <Feedback direction={direction}> You liked {person}.</Feedback>}
             {person && direction === "left" && <Feedback direction={direction}> You disliked {person}.</Feedback>}
+
         </>
     )
 };
